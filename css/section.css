@@ -26,6 +26,7 @@ section {
 #about p {
     margin-top: 15px;
     font-size: 2vmin;
+    text-align: justify;
 }
 
 #about img {
@@ -33,6 +34,7 @@ section {
 }
 
 .btn-cv {
+    display: flex;
     margin-top: 30px;
 }
 
