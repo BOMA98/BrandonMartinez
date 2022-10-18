@@ -14,7 +14,9 @@
 <body>
     <!-- Menu -->
     <nav class="nav">
-        <div class="logo"><h1><a href="#">&lt;B/&gt;</a></h1></div>
+        <div class="logo">
+            <h1><a href="#">&lt;B/&gt;</a></h1>
+        </div>
         <ul class="menu">
             <li><a href="#about">Acerca de mi</a></li>
             <li><a href="#">Habilidades</a></li>
@@ -48,17 +50,62 @@
                     <img src="img/aboutme.JPG" alt="#">
                 </div>
                 <div>
-                    <p>Hola mi nombre es Brandon Martinez, soy un desarrollador de software Jr ubicado en Monterrey NL. Egresado de la carrera de Lic. Tecnologías de la Información</p>
-                    <p>Soy una persona organizada, creativa y responsable. Me encanta practicar deporte, hacer ejercicio y ver series de televisión.</p>
-                    <p>Mi objetivo profesional es desarrollarme dentro de una empresa con una visión de largo plazo, aplicando mis conocimientos y habilidades para fortalecer y adquirir nuevos conocimientos.</p>
-                    <p>Interesado en todo el ámbito del desarrollo de software dirigido tanto aplicaciones de escritorio como aplicaciones móviles.</p>
+                    <p>Hola mi nombre es Brandon Martinez, soy un desarrollador de software Jr ubicado en Monterrey NL.
+                        Egresado de la carrera de Lic. Tecnologías de la Información</p>
+                    <p>Soy una persona organizada, creativa y responsable. Me encanta practicar deporte, hacer ejercicio
+                        y jugar videojuegos.</p>
+                    <p>Mi objetivo profesional es desarrollarme dentro de una empresa con una visión de largo plazo,
+                        aplicando mis conocimientos y habilidades para fortalecer y adquirir nuevos conocimientos.</p>
+                    <p>Interesado en todo el ámbito del desarrollo de software dirigido tanto aplicaciones de escritorio
+                        como aplicaciones móviles.</p>
                     <div class="btn-cv"><a href="#" class="ctn">Descargar CV</a></div>
                 </div>
             </div>
         </section>
 
         <section class="skills">
-            <h1>prueba</h1>
+            <div class="skill-cont">
+                <div class="left">
+                    <div class="title">
+                        <h1>Habilidades</h1>
+                        <div class="line"></div>
+                        <p>esto es texto de prueba solo para ver como se ve</p>
+                    </div>
+                </div>
+                <div class="rigth">
+                    <div class="skill-line">
+                        <div class="info">
+                            <span>C#</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="bar c"></div>
+                    </div>
+
+                    <div class="skill-line">
+                        <div class="info">
+                            <span>JAVA</span>
+                            <span>25%</span>
+                        </div>
+                        <div class="bar java"></div>
+                    </div>
+
+                    <div class="skill-line">
+                        <div class="info">
+                            <span>SQL</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="bar sql"></div>
+                    </div>
+
+                    <div class="skill-line">
+                        <div class="info">
+                            <span>Oracle</span>
+                            <span>35%</span>
+                        </div>
+                        <div class="bar oracle"></div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -67,7 +114,7 @@
     </footer>
 
     <script type="text/javascript">
-        window.addEventListener("scroll", function(){
+        window.addEventListener("scroll", function () {
             var nav = document.querySelector("nav");
             nav.classList.toggle("down", scrollY > 0);
         })
@@ -75,10 +122,9 @@
         const menubtn = document.querySelector('.menu-btn')
         const navlinks = document.querySelector('.menu')
 
-        menubtn.addEventListener('click', ()=>{
+        menubtn.addEventListener('click', () => {
             navlinks.classList.toggle('movile-menu')
         })
-
     </script>
 </body>
 
