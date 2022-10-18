@@ -40,3 +40,70 @@ section {
 
 
 /* HABILIDADES */
+.skills {
+    width: 100%;
+    height: 70vh;
+}
+
+.skill-cont {
+    display: flex;
+    align-items: center;
+
+    width: 80%;
+    margin: 80px auto;
+}
+
+.skill-cont p {
+    font-size: 2vmin;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.left {
+    width: 50%;
+}
+
+.rigth {
+    flex: 1;
+    margin-left: 30px;
+    margin-top: 200px;
+    background: #cff3ff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.rigth .skill-line {
+    margin-bottom: 15px;   
+}
+
+.rigth .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rigth .info span {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.rigth .bar {
+    position: relative;
+    background-color: lightgray;
+    height: 15px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.rigth .bar::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: #ff4e58;
+    border-radius: 15px;
+}
+
+.rigth .c::before {
+    width: 30%;
+}
