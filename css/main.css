@@ -36,7 +36,7 @@ html {
         height: 35%;
         margin-top: -1000px;
         justify-content: center;
-        background: salmon;
+        background: #ff4e58;
         border-bottom-left-radius: 15%;
         border-bottom-right-radius: 15%;
         transition: all 0.5s ease;
