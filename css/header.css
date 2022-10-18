@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px;
+    padding: 5px 25px;
     position: absolute;
     transition: all 0.5s ease;
     z-index: 10;
@@ -38,7 +38,7 @@
 .nav.down {
     background: #ff4e58;
     position: fixed;
-    padding: 0px 25px;
+    padding: 2px 25px;
 }
 
 .menu-btn {
@@ -50,7 +50,7 @@
 header {
     width: 100wh;
     height: 100vh;
-    background-image: url('/img/banner.jpg');
+    background-image: url('../img/banner.JPG');
     background-position: center;
     background-size: cover;
     display: flex;
