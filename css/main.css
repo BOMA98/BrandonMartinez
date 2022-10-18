@@ -33,7 +33,7 @@ html {
         top: 0;
         left: 0;
         width: 100%;
-        height: 50%;
+        height: 35%;
         margin-top: -1000px;
         justify-content: center;
         background: salmon;
@@ -49,5 +49,13 @@ html {
     /* ACERCA DE MI */
     .row {
         flex-direction: column;
+    }
+
+    .col {
+        margin: auto;
+    }
+
+    .btn-cv {
+        justify-content: center;
     }
 }
