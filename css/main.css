@@ -58,4 +58,18 @@ html {
     .btn-cv {
         justify-content: center;
     }
+
+    /* HABILIDADES */
+    .skill-cont {
+        flex-direction: column;
+    }
+    
+    .left {
+        width: 100%;
+    }
+
+    .rigth {
+        width: 100%;
+        margin: 0;
+    }
 }
